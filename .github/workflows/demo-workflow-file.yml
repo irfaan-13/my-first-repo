@@ -1,0 +1,11 @@
+name: Demo Workflow
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Say Hello
+        run: echo "This demo file shows a very basic and easy-to-understand workflow.":
